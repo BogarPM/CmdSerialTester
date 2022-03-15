@@ -37,7 +37,7 @@ while True:
     count += 1
     if count > 100:
         msg = 'From serial debugger'
-        cmd = getCommand(97,len(msg),msg)
+        cmd = getCommand(41,len(msg),msg)
         ser.write(cmd)
         print(cmd)
         count = 0
